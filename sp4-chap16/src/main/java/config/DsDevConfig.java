@@ -22,7 +22,7 @@ public class DsDevConfig {
 		} catch (PropertyVetoException e) {
 			throw new RuntimeException(e);
 		}
-		ds.setJdbcUrl("jdbc:mysql://localhost/spring4fs?characterEncoding=utf8");
+		ds.setJdbcUrl("jdbc:mysql://yolombc-database-develop-origin.cojqinpvmiky.ap-northeast-2.rds.amazonaws.com:3306/spring4fs?characterEncoding=utf8");
 		ds.setUser("spring4");
 		ds.setPassword("spring4");
 		return ds;
